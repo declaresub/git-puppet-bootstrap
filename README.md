@@ -12,7 +12,7 @@ run git init.
 
     mkdir /path/to/new_server
     cd /path/to/new_server
-    git clone file:///Users/charles/Developer/git/server_bootstrap .
+    git clone https://github.com/declaresub/git-puppet-bootstrap.git .
     rm -rf .git
     git init .
     git add *
